@@ -1,7 +1,13 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/"> Vue Practices</router-link>
+      <router-link to="/vuepracticesextended"> Vue Practices Extended</router-link>|
+      <router-link to="/vueindividualextended"> Vue Individual Extended</router-link>|
+      <router-link to="/vuequestionnaireextended"> Vue Questionnarie Extended</router-link>|
+
+      <router-link to="/"> Vue Practices</router-link>|
+      <router-link to="/vueindividual"> Vue Individual</router-link>|
+      <router-link to="/vuequestionnaire"> Vue Questionnarie</router-link>
     </div>
     <router-view />
   </div>

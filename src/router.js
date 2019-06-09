@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import DataRendering from './views/DataRendering.vue';
-import VueTemplates from './views/VueTemplates.vue';
+import VueSyntax from './views/VueSyntax.vue';
 
 Vue.use(Router);
 
@@ -9,8 +8,8 @@ export default new Router({
 	routes: [
 		{
 			path: '/',
-			name: 'vuetemplates',
-			component: VueTemplates,
+			name: 'vuesyntax',
+			component: VueSyntax,
 		},
 	],
 });

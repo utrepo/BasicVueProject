@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/"> Vue Syntax</router-link>
+      <router-link to="/"> Vue Practices</router-link>
     </div>
     <router-view />
   </div>

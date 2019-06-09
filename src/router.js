@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import VueSyntax from './views/VueSyntax.vue';
+import VuePractices from './views/VuePractices.vue';
 
 Vue.use(Router);
 
@@ -8,8 +8,8 @@ export default new Router({
 	routes: [
 		{
 			path: '/',
-			name: 'vuesyntax',
-			component: VueSyntax,
+			name: 'vuePractices',
+			component: VuePractices,
 		},
 	],
 });

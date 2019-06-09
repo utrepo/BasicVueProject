@@ -1,12 +1,12 @@
 <template>
   <div class="sampleDiv">
-    <span>Vue Templates</span>
+    <span>Vue Syntax</span>
   </div>
 </template>
 
 <script>
   export default {
-    name: "vueTemplate"
+    name: "vuePractices"
   };
 </script>
 

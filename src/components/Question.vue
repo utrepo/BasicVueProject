@@ -2,7 +2,7 @@
   <div class="sampleDiv">
     <span>Question</span>
     <br /><br />
-    <span>What about the examples ? </span>
+    <span>{What about the examples ?} </span>
     <br /><br />
     <select v-model="selectedValue">
       <option :value="{ number: 5 }">Great</option>
